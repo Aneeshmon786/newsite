@@ -1,0 +1,45 @@
+body{
+    background-color: #f0e6e6;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex; 
+    flex-direction:row; 
+    justify-content:space-between;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.right {
+    display: flex;
+    flex-direction: row;
+
+    .lftrgt {
+        margin-left: 2em;
+        margin-top: .3em;
+    }
+}
+#heading1{
+    font-weight: lighter;
+    font-size: 5em;
+}
+#p1{
+    margin-right: 10%;
+    text-align: left;
+    font-size: 20px;
+}
+.canvas{
+    width: 25em;
+    height:25em;
+    background-color: #fff;
+    border-radius: 50%;
+    background-image: url(/images/aneesh.jpeg);
+    background-position: center;
+}
+#bannerright{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
